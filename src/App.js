@@ -1,12 +1,12 @@
 
-import React, { PureComponent } from 'react';
+import React, { Component } from 'react';
 import Header from './components/header/Header';
 import Card from './components/card/Card';
 import GameOver from './components/card/GameOver';
 
 import './main.css';
 
-class App extends PureComponent {
+class App extends React.Component {
 
   state = {
     isFlipped: Array(16).fill(false),
